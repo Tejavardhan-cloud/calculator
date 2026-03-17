@@ -3,6 +3,10 @@ int add(int a,int b)
 {
     return a+b;
 }
+int sub(int a,int b)
+{
+    return a-b;
+}
 void main()
 {
     printf("welcome\n");
@@ -11,4 +15,5 @@ void main()
     scanf("%d%d,&a,&b");
     int c=add(a,b);
     printf("%d",c);
+    printf("%d\n",sub(a,b));
 }
